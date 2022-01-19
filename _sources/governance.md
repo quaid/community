@@ -4,10 +4,22 @@ description: Initiating governance for the Operate First project community
 ---
 # Operate First Community Governance 1.0
 
+<<<<<<< HEAD
 This document contains the initial governance (Governance 1.0) for the community-formed project around the _[Operate First concept](https://openinfralabs.org/operate-first-manifesto/)_.
+=======
+This document contains a work in progress (WIP) draft of the initial governance (Governance 1.0) for the community-formed project around the _[Operate First concept](https://openinfralabs.org/operate-first-manifesto/)_.
+>>>>>>> 9292d67 (Fixing naming confusions)
 In this document, the community and project are referred to by the shorthand _Op1st_ (spoken as "op first").
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 It also has a roadmap for additions coming in the next iteration of the governance (Governance 1.1).
+=======
+It also has a roadmap for additions coming in the next iteration of the governance (Governane 1.1).
+>>>>>>> 51626b0 (grammar fix)
+=======
+It also has a roadmap for additions coming in the next iteration of the governance (Governance 1.1).
+>>>>>>> af3ff20 (Spelling fix)
 
 ## Summmary
 
@@ -41,7 +53,15 @@ Our mission requires us to use open source principles in ways beyond licensing t
 
 These are the Op1st community principles we adhere to:
 1. **Open Source** : Any content we create is released under an open work license. Content includes but is not limited to all software, documentations, configuration files, data, and training materials.
+<<<<<<< HEAD
+<<<<<<< HEAD
 "All software" includes the code necessary to operate software, AKA _operational code_.
+=======
+"All software" includes the code necessary to operate software, AKA _operational code_. 
+>>>>>>> f61eb87 (opening the canopy of our definition of "open source")
+=======
+"All software" includes the code necessary to operate software, AKA _operational code_.
+>>>>>>> af3ff20 (Spelling fix)
   - This is crucial to fulfilling our mission around open sourcing operations
 2. **Welcoming and respectful** : We intend to be an open, welcoming, and inclusive community.
 Diversity is our strength.
@@ -52,9 +72,19 @@ Ideas and contributions are accepted according to their technical merit and alig
 4. **Open Work** : Two of our core tools for successful community building are transparency and accessibility.
 To support that, work and collaboration must be done in public to the greatest degree possible.
 Refer to the section on [Community Groups](#community-groups) and [SIGs](#sigs) in particular for details on how this is performed.
+<<<<<<< HEAD
+<<<<<<< HEAD
 5. **Sustainable Open Community** : The best way to build a sustainable open source community is to ensure the community cohesion is through openness and transparency, ensuring all the voices are heard and anyone can rise to leadership positions.
 The more diversity of voices at the decision table, the better our ability to improve conditions such as inclusion and equity.
 Sustainable comes through continuous improvement of those areas, such as through centering the agenda of those people most marginalized and at risk in each given context (which results in things being more accessible for everyone.)
+=======
+5. **Truly Open Community** : The best way to build a sustainable open source community is to ensure the community is a cohesive, inclusive, and equitable place where all the voices are heard and anyone can rise to leadership positions.
+>>>>>>> 2a6c970 (adding in-file links to sections)
+=======
+5. **Sustainable Open Community** : The best way to build a sustainable open source community is to ensure the community cohesion is through openness and transparency, ensuring all the voices are heard and anyone can rise to leadership positions.
+The more diversity of voices at the decision table, the better our ability to improve conditions such as inclusion and equity.
+Sustainable comes through continuous improvement of those areas, such as through centering the agenda of those people most marginalized and at risk in each given context (which results in things being more accessible for everyone.)
+>>>>>>> 14a0edc (widen canopy for meaning of "open community")
 
 ### Code of Conduct
 
@@ -147,11 +177,21 @@ There are two types of consensus models we use, the lightweight and the full:
 
 * **Lightweight consensus** occurs when a decision does not have wide or sweeping effects and is considered approved if no one raises any blocking objections after several days.
 In practice, a proposal email with sufficient detail is sent to a SIG or main community list, and if no one raises an objection after three working days (i.e., Saturdays and Sundays are not counted), the proposal passes.
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8727ebf (Deeper clarity on time window to make decisions)
 * **Full consensus** decisions require 3 yes votes (+1) and no objections (-1’s) and votes should be left open for at least 72 hours (not counting weekend days) to ensure all voices are heard.
 72 hours is a minimum and should be increased for decisions with a likely broad impact, that involve contentious issues, or for any other reason that increases fairness in reaching consensus.
 Specifically, these rules must **not** be used to intentionally or accidentally disenfranchise contributors.
 For example, if a 72 hour window goes over a weekend and means a significant decision closes on a Monday, it may disenfranchise contributors who cannot watch the project daily.
 In such cases, a full calendar week is a fair minimum window for decision making, balancing the needs to give people enough time and to keep the process moving along.
+<<<<<<< HEAD
+=======
+* **Full consensus** decisions require 3 yes votes (+1) and no objections (-1’s) and votes should be left open for at least 72 hours.
+>>>>>>> 3880e88 (Lightweight consensus process clarification)
+=======
+>>>>>>> 8727ebf (Deeper clarity on time window to make decisions)
 All -1s votes require reason/ explanation, -1’s with no substantiation may be overturned.
 Thus a single -1 vote can block achieving consensus, so it forces the group to take care of the blocking person rather than outvoting.
 
