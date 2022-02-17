@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Community Metrics &#8212; Operate First Community</title>
+    <title>SIG Community &#8212; Operate First Community</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -182,7 +182,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/metrics/README.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/sig-community/charter.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -202,7 +202,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/operate-first/community/issues/new?title=Issue%20on%20page%20%2Fmetrics/README.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/operate-first/community/issues/new?title=Issue%20on%20page%20%2Fsig-community/charter.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -229,9 +229,33 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#metrics">
-   Metrics
+  <a class="reference internal nav-link" href="#scope">
+   Scope
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#in-scope">
+     In scope
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#out-of-scope">
+     Out of scope
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#stakeholders">
+   Stakeholders
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#subproject-creation">
+     Subproject Creation
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -243,7 +267,7 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Community Metrics</h1>
+                <h1>SIG Community</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -254,9 +278,33 @@
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#metrics">
-   Metrics
+  <a class="reference internal nav-link" href="#scope">
+   Scope
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#in-scope">
+     In scope
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#out-of-scope">
+     Out of scope
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#stakeholders">
+   Stakeholders
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#subproject-creation">
+     Subproject Creation
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -267,109 +315,72 @@
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="community-metrics">
-<h1>Community Metrics<a class="headerlink" href="#community-metrics" title="Permalink to this headline">¶</a></h1>
-<p>This folder contains documents, Jupyter notebooks and other relvant information related to Operate First Community metrics.</p>
-<p>By gleaning information from open source-ecosystem data sets such as GitHub data, we can help drive community and business-oriented decision making. Using data-analysis tools such as Jupyter notebooks, as well as community metric tools from <a class="reference external" href="https://github.com/chaoss/augur">Project CHAOSS</a>, we can enable contributors and participants to ask questions and make data-informed decisions about the Operate First community.</p>
-<div class="section" id="metrics">
-<h2>Metrics<a class="headerlink" href="#metrics" title="Permalink to this headline">¶</a></h2>
-<p>In order to measure and gauge the growth of the Operate First community, we need to define and track relevant metrics. Some of the metrics we woud like to track are:</p>
-<ol class="simple">
-<li><p><strong>Community Vitality</strong> - All the metrics that can be used to measure both the <strong>size</strong> and <strong>growth</strong> of the community such as number of users, number of contributors, number of projects deployed on Operate First, how many new users do we onboard every month, number of issues submitted over time, number of PRs merged over time etc.</p></li>
-<li><p><strong>Impact</strong> - Metrics that can be used to understand the impact made by the Operate First community such as how many upstream issues were opened, upstream contributions etc</p></li>
-</ol>
-<p>Below are some of the metrics we would like to track:</p>
-<table>
-  <tr>
-   <td>
-<strong>Category</strong>
-   </td>
-   <td><strong>Metric</strong>
-   </td>
-   <td><strong>Data Source</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Vitality (Size)</strong>
-   </td>
-   <td># Users/visitors
-   </td>
-   <td>Google Analytics
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td># Contributors
-   </td>
-   <td>GitHub
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td># Projects deployed
-   </td>
-   <td>OpenShift
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Vitality (Growth)</strong>
-   </td>
-   <td># New Users over time
-   </td>
-   <td>GitHub/Google Analytics
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td># New Contributors over time (internal vs external contributors)
-   </td>
-   <td>GitHub
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td># Issues opened over time (grouped by repos, internal vs external contributors)
-   </td>
-   <td>GitHub
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td># PRs merged over time (grouped by repos, internal vs external contributors)
-   </td>
-   <td>GitHub
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Impact</strong>
-   </td>
-   <td># Upstream issues submitted
-   </td>
-   <td>GitHub
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td># User retention
-   </td>
-   <td>Google Analytics
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td># User acquisition
-   </td>
-   <td>Google Analytics
-   </td>
-  </tr>
-</table>
+  <div class="tex2jax_ignore mathjax_ignore section" id="sig-community">
+<h1>SIG Community<a class="headerlink" href="#sig-community" title="Permalink to this headline">¶</a></h1>
+<p>This SIG cares about all aspects of what is helpful and harmful to this open source software community.
+We understand that this project is a human endeavor, and it is our job to put people before practice, process, and even progress.</p>
+<div class="section" id="scope">
+<h2>Scope<a class="headerlink" href="#scope" title="Permalink to this headline">¶</a></h2>
+<p><strong>What does it mean to support a community?</strong>
+It means understanding and putting resources into whatever is important to people in this community.
+We put our own time and energy into this support, and we help coordinate and direct project resources.</p>
+<p><strong>What is an open source project compared to a community?</strong>
+A <em>project</em> is a general term referring to an effort by people to accomplish something that requires time and multiple steps. Pruning a rose bush is a task, where a multi-year effort to plant a new rose garden is a project.
+An open source software community is a type of <em>community of practice</em>, and the software project is the place where the community practices.</p>
+<p>You can have a community without a project, which is really a social club.
+But you cannot have an open source project without a community.
+However, not all open source software is maintained by a project.
+It may rather be maintained by an individual, or a single organization through its members (employees, students, researchers, etc.) being effectively the sole contributors.</p>
+<div class="section" id="in-scope">
+<h3>In scope<a class="headerlink" href="#in-scope" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Establishing a wide, diverse, and inclusive community of people and organizations from all backgrounds and situations.</p></li>
+<li><p>Creating and maintaining an open source governance for the project</p>
+<ul>
+<li><p>In particular establishing democratically elected overarching leadership and focus committees (Steering, Security, et al)</p></li>
+</ul>
+</li>
+<li><p>Establishing further SIGs to take over specific purviews from SIG Community</p></li>
+<li><p>Being widely inclusive and holding a vision for diversity and equity in the project</p></li>
+<li><p>Supporting diversity, equity, and inclusion with actions and resources</p></li>
+<li><p>Maintaining project Code of Conduct and related reporting and response processes</p></li>
+<li><p>Care about and improve the user and contributor experience</p></li>
+<li><p>Create and maintain user personas for the project</p></li>
+<li><p>Establish a project-wide documentation approach</p></li>
+<li><p>Establish and maintain project-wide communication norms and channels</p></li>
+<li><p>User and contributor onboarding, i.e., the process for bringing new people into the project</p></li>
+<li><p>Creating and maintaining project role definitions and responsibility/authority matrix</p></li>
+<li><p>Keeping track of project and community health, including the use of metrics</p></li>
+<li><p>Work with SIG Operations to scope and define the infrastructure of participation for contributors</p></li>
+<li><p>Ownership and financing (domain names, other project assets)</p></li>
+<li><p>Ensure project-wide transparency</p></li>
+<li><p>Set project technical direction and maintain a development roadmap</p></li>
+<li><p>Care about the website presence and other communication outlets, e.g. social media and mail</p></li>
+</ul>
+</div>
+<div class="section" id="out-of-scope">
+<h3>Out of scope<a class="headerlink" href="#out-of-scope" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Directing project infrastructure</p></li>
+<li><p>Handling security discussions and responses, including having no role in embargoed security situations</p></li>
+<li><p>Stewarding changes to the Governance beyond the work for Governance 1.1 that establishes one or more leadership committees</p></li>
+<li><p>Being the de facto body leading the Op1st project once those capabilities and responsibilities are instilled into one or more leadership committees.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="stakeholders">
+<h2>Stakeholders<a class="headerlink" href="#stakeholders" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Contributors, and by extension contributors’ organizations</p></li>
+<li><p>OpenInfra Foundation, via OpenInfra Labs relationship</p></li>
+<li><p><a class="reference external" href="https://massopen.cloud/">Mass Open Cloud (MOC)</a></p></li>
+<li><p>Open Source Developers (user persona)</p></li>
+</ul>
+<div class="section" id="subproject-creation">
+<h3>Subproject Creation<a class="headerlink" href="#subproject-creation" title="Permalink to this headline">¶</a></h3>
+<p>Creation of subprojects happens through SIG consensus, coordinated by SIG Chairs.
+All subprojects and their memberships are tracked in <span class="xref myst">sigs.yaml</span>.</p>
+</div>
 </div>
 </div>
 
@@ -386,7 +397,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./metrics"
+            path: "./sig-community"
         },
         predefinedOutput: true
     }

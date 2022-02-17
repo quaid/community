@@ -37,9 +37,12 @@
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
@@ -96,6 +99,11 @@
   </a>
  </li>
 </ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  General
+ </span>
+</p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="glossary.html">
@@ -105,6 +113,33 @@
  <li class="toctree-l1">
   <a class="reference internal" href="governance.html">
    Operate First Community Governance 1.0
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="open-source-services.html">
+   Minimum Open Source Requirements for Services
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  SIGs
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="sig-list.html">
+   Special Interest Groups
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="liaisons.html">
+   Liaisons
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sig-operations/charter.html">
+   SIG Operations
   </a>
  </li>
 </ul>
@@ -335,7 +370,7 @@
 <p>We plan and keep track of our efforts on the <a class="reference external" href="https://github.com/orgs/operate-first/projects/16">Community Project Board</a>, which is drives the status of the <a class="reference external" href="https://github.com/operate-first/community/blob/main/program-management-tracker.md">program management page</a>.</p>
 <div class="section" id="bootstrapping">
 <h2>Bootstrapping<a class="headerlink" href="#bootstrapping" title="Permalink to this headline">¶</a></h2>
-<p>This repository is the home to efforts to bring a formal <em>community architecture</em> process to the Operate First initiative.
+<p>This repository (<a class="reference external" href="https://github.com/operate-first/community">https://github.com/operate-first/community</a>) is the home to efforts to bring a formal <em>community architecture</em> process to the Operate First initiative.
 The scope of this initiative is large enough with a multi-community impact to warrant going from an organic community effort to a managed community.
 This initiative is in the beginning stages (bootstrapping) of defining and performing this work.</p>
 </div>
@@ -352,7 +387,7 @@ This initiative is in the beginning stages (bootstrapping) of defining and perfo
 <p>All commits to this repository should use a <a class="reference external" href="https://github.com/operate-first/blueprint/blob/main/docs/adr/0016-pr-review.md#process">pull request process</a> for most changes.
 This means under normal conditions, no one should commit directly to the repo.
 Instead, they branch or fork the repo, make changes in the branch/fork, and then make a pull request against the main repo.</p>
-<p>Because content in this repo is not in its final form, we do not need as stringent a review process for accepting pull requests into this repo. This repo is for project work that appears in its finished form in locations such as <a class="reference external" href="https://operate-first.cloud">https://operate-first.cloud</a>, <a class="reference external" href="https://twitter.com/operate-first">https://twitter.com/operate-first</a>, the Operate First <a class="reference external" href="https://listman.redhat.com/mailman/listinfo/operate-first">community mailing list</a>, and so forth.
+<p>Because content in this repo is not in its final form, we do not need as stringent a review process for accepting pull requests into this repo. This repo is for project work that appears in its finished form in locations such as <a class="reference external" href="https://operate-first.cloud">https://operate-first.cloud</a>, <a class="reference external" href="https://twitter.com/OperateFirst">https://twitter.com/OperateFirst</a>, the Operate First <a class="reference external" href="https://listman.redhat.com/mailman/listinfo/operate-first">community mailing list</a>, and so forth.
 This is generally not a final-form location, and we are often dumping in partially completed work to finish here openly.</p>
 <p>However, we want to follow the PR process for several reason:</p>
 <ul class="simple">
@@ -416,6 +451,8 @@ This way, wherever you are in the project repos, you can mark a pull request or 
 <li><p>A write-up on how to setup a clone of a repository for doing work intended to be contributed to the community would be labeled <code class="docutils literal notranslate"><span class="pre">area/contributor</span></code>, <code class="docutils literal notranslate"><span class="pre">kind/documentation</span></code>, <code class="docutils literal notranslate"><span class="pre">kind/onboarding</span></code>, and <code class="docutils literal notranslate"><span class="pre">kind/handbook</span></code>.</p></li>
 </ul>
 </div>
+</div>
+<div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
 </div>
