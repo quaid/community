@@ -45,12 +45,11 @@
     <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="shortcut icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -134,6 +133,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../liaisons.html">
    Liaisons
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../sig-community/charter.html">
+   SIG Community
   </a>
  </li>
  <li class="toctree-l1">
@@ -347,7 +351,10 @@ To understand how this file is generated, see https://git.k8s.io/community/gener
 --->
 <div class="tex2jax_ignore mathjax_ignore section" id="operations-special-interest-group">
 <h1>Operations Special Interest Group<a class="headerlink" href="#operations-special-interest-group" title="Permalink to this headline">¶</a></h1>
-<p>The goal of this SIG is to enable management and operations for hardware and platform tooling within the Operate First Community Cloud (op1st)</p>
+<p>The goal of this SIG is to enable management and operations for hardware and platform tooling within the Operate First Community Cloud (op1st).
+Meeting Agenda docs can be found <a class="reference external" href="https://docs.google.com/document/d/1uEcLGP_sBSNwTLPOo_2Nu6oTqPytOTBt0c0_pVUQJwo/edit">here</a>. See below for meeting details. Anyone can suggest new agenda items for the next meeting.
+Sig Operations does not have a single project board to track all on going work as the scope is fairly broad.
+However, you may track issues in key repos in the Operate-First github organization. These repos are: <a class="reference external" href="https://github.com/operate-first/apps/issues">apps</a>, <a class="reference external" href="https://github.com/operate-first/operations/issues">operations</a>, <a class="reference external" href="https://github.com/operate-first/support/issues">support</a>, <a class="reference external" href="https://github.com/operate-first/common/issues">common</a>, <a class="reference external" href="https://github.com/operate-first/opfcli">opfcli</a></p>
 <p>The <a class="reference internal" href="charter.html"><span class="doc std std-doc">charter</span></a> defines the scope and governance of the Operations Special Interest Group.</p>
 <div class="section" id="meetings">
 <h2>Meetings<a class="headerlink" href="#meetings" title="Permalink to this headline">¶</a></h2>
@@ -387,8 +394,7 @@ To understand how this file is generated, see https://git.k8s.io/community/gener
 </li>
 <li><p><strong>Meetings:</strong></p>
 <ul>
-<li><p>Cluster Ops meeting: <span class="xref myst">Tuesdays at 8:30 EST</span> (Weekly). <a class="reference external" href="http://www.thetimezoneconverter.com/?t=8:30&amp;tz=EST">Convert to your timezone</a>.</p></li>
-<li><p>Cluster Ops meeting: <span class="xref myst">Thursdays at 8:30 EST</span> (Weekly). <a class="reference external" href="http://www.thetimezoneconverter.com/?t=8:30&amp;tz=EST">Convert to your timezone</a>.</p></li>
+<li><p>Cluster Ops meeting: <span class="xref myst">Mondays at 13:30 EST</span> (Weekly). <a class="reference external" href="http://www.thetimezoneconverter.com/?t=13:30&amp;tz=EST">Convert to your timezone</a>.</p></li>
 </ul>
 </li>
 </ul>
