@@ -26,6 +26,10 @@ Due to the variety of services, projects, teams, and workflows there is a lot of
 Secondly, the requirements are a bare minimum, and best practices usually go beyond the requirements.
 Thus we must address common questions about the requirements:
 
+### Q: What defines a service?
+
+A service is software operated for the user. Software the user is operating for themself is not considered a service. A service is defined by the context in which the software is operated and all of the assets required to operate the software for the user in that context.
+
 ### Q: What “assets” should be Open Source?
 
 **A:** Make all parts of the service open by default, except where law, security, privacy, or common sense says otherwise.
@@ -69,7 +73,7 @@ However, if a typical team member operates their own instance of the service in 
 It is a powerful, laudable goal for others to be able to operate an Open Source service, either by operating an instance on their own, or participating in operations of a common instance.
 [Operate First](https://www.operate-first.cloud/) is a project that enables this, and even provides infrastructure.
 
-### Q: Must all requirements for a service be Open Source too?
+### Q: Must all dependencies for a service be Open Source too?
 
 **A:** It is _not required_ that all dependencies of a service are Open Source, or have Open Source alternatives.
 For example, a service may interact with a proprietary authentication system, or run on a proprietary platform.
@@ -82,4 +86,6 @@ The requirements together serve to enable others to change the service code so t
 
 If your project grows bigger, and has many participants, then forming a community with the typical components (communication venues, code of conduct, governance, etc.) is _recommended_, and brings significant further Open Source benefits.
 
-Among other things, having a community means sharing your documentation, issues, and a roadmap. It also means conducting most planning conversations about the service in the open, and not limiting participation to your team. Without these things, your community interaction will be more painful.
+Among other things, having a community means sharing your documentation, issues, and a roadmap. It also means conducting most planning conversations about the service in the open, and not limiting participation to your team.
+This is how you gain the advantages of the Open innovation process, where minds beyond your team can help work through problems and create solutions 
+Without these things, your community interaction will be more painful as crossing the boundary between community and Red Hat private has a high context switching cost.
